@@ -1,0 +1,39 @@
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+p {
+  font-size: 1.125rem;
+  margin-top: 2rem;
+}
+
+ul {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.tech {
+  color: var(--font-white);
+  font-weight: bold;
+  border-radius: 50%;
+  padding: 1rem;
+  display: flex;
+}
+
+.html {
+  background-color: var(--html-color);
+}
+
+.css {
+  background-color: var(--css-color);
+}
+
+.javascript {
+  color: var(--font-dark);
+  background-color: var(--js-color);
+}
